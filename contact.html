@@ -1,0 +1,68 @@
+<!--
+Assignment: Project Final
+Name: Hansan Hung
+Date: 6/1/2018
+File Name: styles.css
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portland Historical Tours::Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylescsss/styles.css" rel="stylesheet">
+</head>
+    <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html15.js">
+<![endif]-->
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Portland Historical Tours</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact Us</h2>
+            <p>You can come visit us at our offices in person, call us, or simply send in an email with any inquiries you may have.</p>
+            <b>Company Address:</b>
+                <br>Portland Historical Tours
+                <br> 1200 NW Naito Parkway
+                <br> Portland, OR 97209
+                <br>
+                <br><b>Phome Number:</b>
+                <br>888-555-5555
+                
+            <p><b>Email Us:</b>
+        <br>Required information is marked with an asterisk (*)</p>
+	<form name="contact" method="post" action="">
+		<label for="myName">* Name:</label>
+		<input type="text" name="myName" id="myName" required="required">
+		<label for="myEmail">* E-mail:</label>
+		<input type="email" name="myEmail" id="myEmail" required="required">
+        <label for="mySubject">* Subject:</label>
+		<input type="text" name="mySubject" id="mySubject" required="required">
+		<label for="myComments">* Message:</label>
+		<textarea rows="10" cols="50" name="myComments" id="myComments" required="required"></textarea>
+		<input type="submit" value="Send Now" name="mySubmit" id="mySubmit">
+	</form>
+
+        </main>
+        <footer>
+            <br>1200 NW Naito Parkway
+            Portland, OR 97209
+            <br>Copyright &copy; 2018
+            Portland Historical Tours
+        </footer>
+    </div>
+</body>
+
+</html>

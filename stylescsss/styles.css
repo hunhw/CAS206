@@ -1,0 +1,190 @@
+/*
+Assignment: Project Final
+Name: Hansan Hung
+Date: 6/10/2018
+File Name: styles.css
+*/
+
+* {
+    box-sizing: border-box
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+body {
+    background-color: black;
+    color: black;
+    font-family: Verdana, Arial, sans-serif;
+    margin: auto;
+}
+
+header {
+    background:linear-gradient(to bottom right, darkolivegreen, olive);
+    font-family: Georgia, serif;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-left: 170px;
+    background-color: white;
+}
+
+#pht {
+    height: 450px;
+    background-image: url(site-assets/Portland_Historical_Tours.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+h1 {
+    background-image: url(site-assets/Logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10%, 10%;
+    line-height: 100%;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    margin-right: 0.5em;
+}
+
+
+nav {
+    font-weight: bold;
+    float: left;
+    width: 170px;
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border: 3px outset #CCCCCC;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: indigo;
+}
+
+nav a:hover {
+    color: darkolivegreen;
+    border: 3px inset #333333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 2em;
+}
+
+.floatright {
+    float: right;
+    margin-left: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+.studio {
+    font-style: italic;
+}
+
+footer {
+    background:linear-gradient(to bottom right, darkolivegreen, olive);
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    border-radius: 1em;
+}
+
+#wrapper {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkgrey;
+    min-width: 1200px;
+    max-width: 1480px;
+    border-radius: 2em;
+}
+
+label {
+    text-align: right;
+    float: left;
+    display: block;
+    width: 20em;
+    padding-right: 15px;
+}
+
+input {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mysubmit {
+
+    margin-left: 10em;
+}
+
+form {
+    padding: 1em;
+}
+
+table {
+    margin: auto;
+    border: 1px solid #39C;
+    width: 70%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #39C;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F5FAFC;
+}
